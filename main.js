@@ -77,7 +77,7 @@ console.log('// // // //');
 // // // //
 
 // #6
-function accum (arguments) {
+function accum () {
   // body
 }
 
