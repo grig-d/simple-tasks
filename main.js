@@ -85,4 +85,73 @@ console.log(accum('abcd')); // "A-Bb-Ccc-Dddd"
 console.log(accum('cwAt')); // "C-Ww-Aaa-Tttt"
 
 // https://www.youtube.com/watch?v=IooJ3P2VUYs&list=PLNkWIWHIRwMFSLI9wBuHxuGI5lAZ7QNUg&index=7
-// hryd
+
+//
+
+// https://www.youtube.com/watch?v=qB2xv2CwAE8&list=WL&index=179
+// https://github.com/YauhenKavalchuk/interview-questions
+
+/*
+function QuickSort(original) {
+  const left = [];
+  const pivot = original.pop();
+  const right = [...original];
+  console.log(left);
+  console.log(pivot);
+  console.log(right);
+
+  // if(original.length < 2) {return original}
+  return [...left, pivot, ...right];
+}
+
+// console.log(QuickSort([2]));
+console.log(QuickSort([1,2]));
+*/
+
+
+////////////////
+// palindrome checking
+
+
+////Слова в двоичный код
+// Напишите функцию, которая принимает строку и возвращает массив, состоящий из двоичных чисел, соответствующих ASCII коду символов строки.
+// Пример:
+//  'man' => [ '01101101', '01100001', '01101110' ]
+
+// дано массив [1,2,1,2,3,5]
+// Превратить его в объект с подсчетом повторов
+// {
+//   1: 2,
+//   2: 2,
+//   3: 1,
+//   5: 1
+// }
+
+
+// Отфильтровать длинные слова
+// Задача проста - напишите функцию, которая принимает строку, состоящую из слов и число.  Функция должна вернуть массив слов, длина которых больше данного числа.
+// Пример:
+//  filterLongWords("The quick brown fox jumps over the lazy dog", 4) 
+//['quick', 'brown', 'jumps']
+
+
+//  Наибольшее и наименьшее
+// Вам дана строка, состоящая из цифр, разделенных пробелами. Напишите функцию, которая обработает строку и вернет наибольшее и наименьшее число.
+// Примеры:
+//  highAndLow("1 2 3 4 5");  // return "5 1"
+//  highAndLow("1 2 -3 4 5"); // return "5 -3"
+//  highAndLow("1 9 3 4 -5"); // return "9 -5"
+
+
+// Убрать минимум
+// Напишите функцию, которая принимает массив чисел, обрабатывает его и возвращает новый массив, в котором не будет самого меньшего числа из данного массива. Если наименьших чисел несколько, функция должна убрать число с наименьшим индексом.
+// Примеры:
+//  removeSmallest([1,2,3,4,5]) = [2,3,4,5]
+//  removeSmallest([5,3,2,1,4]) = [5,3,2,4]
+//  removeSmallest([2,2,1,2,1]) = [2,2,2,1]
+
+// Строка заканчивается на
+// Вам даны две строки. Напишите функцию, которая проверит заканчивается ли первая строка второй строкой.
+// Примеры:
+//  solution('abc', 'bc') // returns true
+//  solution('abc', 'd') // returns false
