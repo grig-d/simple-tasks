@@ -72,4 +72,16 @@ console.log(minMax([2, 9, 10, 25, 47, 4, 1])); // [7,47]
 console.log(minMax([2, 1])); // [1,2]
 console.log(minMax([1])); // [1,1]
 
-// https://www.youtube.com/watch?v=kx3dR6ztICU&list=PLNkWIWHIRwMFSLI9wBuHxuGI5lAZ7QNUg&index=6
+// // // //
+console.log('// // // //');
+// // // //
+
+// #6
+function accum (arguments) {
+  // body
+}
+
+console.log(accum('abcd')); // "A-Bb-Ccc-Dddd"
+console.log(accum('cwAt')); // "C-Ww-Aaa-Tttt"
+
+// https://www.youtube.com/watch?v=IooJ3P2VUYs&list=PLNkWIWHIRwMFSLI9wBuHxuGI5lAZ7QNUg&index=7
