@@ -1,0 +1,23 @@
+{
+  "name": "simple-tasks",
+  "version": "1.0.0",
+  "description": "tasks from \"webDev Front-end. Вопросы на собеседовании\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grig-d/simple-tasks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grig-d/simple-tasks/issues"
+  },
+  "homepage": "https://github.com/grig-d/simple-tasks#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
